@@ -1,5 +1,5 @@
 // botScript is a list of questions the robot will ask the user.
-var botScript = [
+
     Name = input("What is your name?")
 def hay():
     print ("Good day "+Name+"")
