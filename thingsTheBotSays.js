@@ -1,8 +1,6 @@
 // botScript is a list of questions the robot will ask the user.
-
-    Name = input("What is your name?")
-def hay():
-    print ("Good day "+Name+"")
+var botScript = [
+    "What is your name?",
     "Nice to hear from you",
     "I am simply an Interactive demo Bot",
     "I am glad you are having a good time at HNG",
