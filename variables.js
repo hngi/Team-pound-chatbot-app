@@ -1,4 +1,10 @@
 // chatArea is the variable that stores the place on the screen the chats will appear.
+var person = prompt("Please enter your name", "");
+
+if (person != null) {
+  document.getElementById("demo").innerHTML =
+  "Hello " + person + "! How are you today?";
+}
 var chatArea = document.getElementById('chat-area');
 
 var count = 0;
